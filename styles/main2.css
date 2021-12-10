@@ -3407,7 +3407,7 @@ body,html {
 	animation:purpleJump 1.7s ease 3s 10;
 	transition:none;
 
-	background-image: url(../custom/prestige1.jpg);
+	background-image: url(../custom/prestige4.jpg);
     background-position: center;
     background-size: cover;
 	border: 5px solid purple;
@@ -3925,7 +3925,7 @@ body,html {
 }
 .monster_wrapper_right {
 	transition: none;
-    background-image: url(../custom/prestige1.jpg);
+    background-image: url(../custom/prestige4.jpg);
     background-position: center;
     background-size: cover;
     border: 5px solid purple;
