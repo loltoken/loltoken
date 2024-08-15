@@ -2,25 +2,25 @@
 	font-family:'Josefin Sans';
 	font-style:normal;
 	font-weight:300;
-	src:local('Josefin Sans Light'),local('JosefinSans-Light'),url(../../fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zwV_pQ1T3xN3K1c3sB361us.ttf) format('truetype')
+	src:local('Josefin Sans Light'),local('JosefinSans-Light'),url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zwV_pQ1T3xN3K1c3sB361us.ttf) format('truetype')
 }
 @font-face {
 	font-family:'Josefin Sans';
 	font-style:normal;
 	font-weight:400;
-	src:local('Josefin Sans'),local('JosefinSans'),url(../../fonts.gstatic.com/s/josefinsans/v9/xgzbb53t8j-Mo-vYa23n5onF5uFdDttMLvmWuJdhhgs.ttf) format('truetype')
+	src:local('Josefin Sans'),local('JosefinSans'),url(https://fonts.gstatic.com/s/josefinsans/v9/xgzbb53t8j-Mo-vYa23n5onF5uFdDttMLvmWuJdhhgs.ttf) format('truetype')
 }
 @font-face {
 	font-family:'Josefin Sans';
 	font-style:normal;
 	font-weight:600;
-	src:local('Josefin Sans SemiBold'),local('JosefinSans-SemiBold'),url(../../fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z1FZMcfX2SbzQ69I7OWmkGo.ttf) format('truetype')
+	src:local('Josefin Sans SemiBold'),local('JosefinSans-SemiBold'),url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z1FZMcfX2SbzQ69I7OWmkGo.ttf) format('truetype')
 }
 @font-face {
 	font-family:'Nothing You Could Do';
 	font-style:normal;
 	font-weight:400;
-	src:local('Nothing You Could Do'),local('NothingYouCouldDo'),url(../../fonts.gstatic.com/s/nothingyoucoulddo/v6/jpk1K3jbJoyoK0XKaSyQAQB8Hyktk_aPnlUAWJgZcX8.ttf) format('truetype')
+	src:local('Nothing You Could Do'),local('NothingYouCouldDo'),url(https://fonts.gstatic.com/s/nothingyoucoulddo/v6/jpk1K3jbJoyoK0XKaSyQAQB8Hyktk_aPnlUAWJgZcX8.ttf) format('truetype')
 }
 
 @font-face {
@@ -1066,17 +1066,17 @@ body,html {
 	transition:transform 1.15s cubic-bezier(0,0,.42,1) 1.5s
 }
 .page_1{
-	background-image:url(../custom/prestige5.jfif);	
+	background-image:url(../custom/사이버유미.jfif);	
     background-position: center;
     background-size: cover;
-    opacity: 0.25;
+    opacity: 0.35;
 }
 .page_4:before {
 	content:"";
 	position:absolute;
 	bottom:0;
 	width:100%;
-	height:48%;
+	height:100%;
 	background-color:#f0f0f0
 }
 .page_4:after {
@@ -1484,8 +1484,19 @@ body,html {
 	-webkit-transform:translate3d(-280%,0,0);
 	transform:translate3d(-280%,0,0)
 }
+/*custom*/
 .monster_wrapper_right {
-	width:15.9736vw;
+	/*width:15.9736vw;*/
+	width:40.1296vw;
+	height:21.02233vw;
+	margin-bottom:-7.92vw;
+	-webkit-transform:translate3d(380%,0,0);
+	transform:translate3d(380%,0,0)
+}
+/*custom*/
+.monster_wrapper_left {
+	/*width:15.9736vw;*/
+	width:40.1296vw;
 	height:21.02233vw;
 	margin-bottom:-7.92vw;
 	-webkit-transform:translate3d(380%,0,0);
@@ -1500,8 +1511,10 @@ body,html {
 	transform:translate3d(-55%,0,0)
 }
 .viewing_3.fixed.tealed .monster_wrapper_right {
-	-webkit-transform:translate3d(79%,0,0);
-	transform:translate3d(79%,0,0)
+	/*-webkit-transform:translate3d(79%,0,0);*/
+	/*transform:translate3d(79%,0,0)*/
+	-webkit-transform:translate3d(50%,0,0);
+	transform:translate3d(50%,0,0)	
 }
 .monsters {
 	position:absolute;
@@ -1699,8 +1712,9 @@ body,html {
 	color:#555;
 	transition:all 0s 1s
 }
+/* custom; */
 .pg3_article_left p {
-	left:3%;
+	/* left:3%;*/
 	text-align:left;
 	-webkit-transform:translateX(27%);
 	-ms-transform:translateX(27%);
@@ -3407,13 +3421,15 @@ body,html {
 	animation:purpleJump 1.7s ease 3s 10;
 	transition:none;
 
-	background-image: url(../custom/prestige5.jfif);
+	/* background-image: url(https://raw.githubusercontent.com/HyeonseokYang/loltoken/main/custom/사이버유미.jfif); */
     background-position: center;
     background-size: cover;
 	border: 5px solid purple;
     border-radius: 10px;
 
 }
+
+
 .viewing_3.fixed.purpled #pg3_purple_leftfoot {
 	-webkit-animation:purpleLeftFoot 1.7s ease 3s 10;
 	animation:purpleLeftFoot 1.7s ease 3s 10;
@@ -3632,7 +3648,8 @@ body,html {
 		transform:translate3d(-280%,0,0)
 	}
 	.monster_wrapper_right {
-		width:37.1296vw;
+		/*width:37.1296vw;*/
+		width:80.1296vw;
 		height:48.86504vw;
 		margin-bottom:10.5vw;
 		-webkit-transform:translate3d(380%,0,0);
@@ -3682,8 +3699,9 @@ body,html {
 		line-height:3.3vh;
 		text-align:justify
 	}
+	/* custom; */
 	.pg3_article_left p {
-		left:3%
+		/*left:3%*/
 	}
 	.pg3_article_right p {
 		right:6%
@@ -3923,17 +3941,27 @@ body,html {
 .slides.current_slide figcaption{
 	font-family: 'IM_Hyemin-Regular';
 }
+.monster_wrapper_left {
+	transition: none;
+    /* background-image: url(https://raw.githubusercontent.com/HyeonseokYang/loltoken/main/custom/사이버유미.jfif); */
+    background-position: 71%;
+    background-size: cover;
+    border: 5px solid purple;
+    border-radius: 10px;
+    transition: transform 1.2s ease 0s;
+}
 .monster_wrapper_right {
 	transition: none;
-    background-image: url(../custom/prestige5.jfif);
-    background-position: center;
+    /* background-image: url(https://raw.githubusercontent.com/HyeonseokYang/loltoken/main/custom/전투사자레오나.jfif); */
+    background-position: 71%;
     background-size: cover;
     border: 5px solid purple;
     border-radius: 10px;
 }
+
 .pg3_article_left{
 	width: 80vw;
-    left: calc(50% - 40vw);
+    right: calc(50% - 40vw);
 }
 .table td, .table th{
 	padding-right: 0px;
